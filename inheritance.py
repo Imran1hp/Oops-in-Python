@@ -53,6 +53,6 @@ class Person:
 
 
 p1 = Person()
-p1.change_name("ALi")
+p1.change_name("Ali")
 print(p1.name)
 print(Person.name)
