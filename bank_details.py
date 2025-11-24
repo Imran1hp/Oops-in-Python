@@ -5,12 +5,17 @@ class Account:
         self.account_no = account_no
         self.balance = balance
 
+
     def deposit(self,amount):
         self.balance = self.balance + amount
         print("Rs",amount,"Deposited Successfully")
+
+
     def withdraw(self,amount):
         self.balance = self.balance - amount
         print("Rs",amount,"Withdraw Successfully")  
+
+
     def balance_(self):
         print("Your Current Balance is Rs",self.balance)
     
