@@ -1,5 +1,7 @@
 class Student:
     college_name ="Luand University"
+
+    
     def __init__(self,fullname, age,gender, class_, id,rollno):
         self.name=fullname
         self.age=age
@@ -14,6 +16,8 @@ class Student:
         print("Class:",self.class_)
         print("ID:",self.id)
         print("Roll no:",self.rollno)
+
+
     def marks(self,Eng_marks,Maths_marks,Science_marks):
         self.eng_marks=Eng_marks
         self.maths_marks=Maths_marks
