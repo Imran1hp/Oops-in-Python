@@ -14,9 +14,17 @@ class Student:
         print("Class:",self.class_)
         print("ID:",self.id)
         print("Roll no:",self.rollno)
+    def marks(self,Eng_marks,Maths_marks,Science_marks):
+        self.eng_marks=Eng_marks
+        self.maths_marks=Maths_marks
+        self.science_marks=Science_marks
+        self.precentage =((self.eng_marks+self.maths_marks+self.science_marks)/300)*100
+        print("Stuent name", self.name)
+        print("English:",self.eng_marks,"Maths:",self.maths_marks,"Science:",self.eng_marks,self.maths_marks,self.science_marks)
+        print("Precentage:",self.precentage)
+
        
 
 
 s1=Student(fullname="Imran",age='23',class_="C",id="98",rollno=38,gender="Male")
-s2=Student(fullname="Ali",age='22',class_="A",id="48",rollno=98,gender="Male")
-
+s1.marks(90,89,50)
